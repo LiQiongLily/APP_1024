@@ -1,2 +1,0 @@
-class PageCard:
-    pass

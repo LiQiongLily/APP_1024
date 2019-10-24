@@ -34,6 +34,7 @@ class PageLogin(Base):
 
     # 组合业务方法
     def page_login(self, username, pwd):
+
         self.page_input_username(username)
         self.page_input_pwd(pwd)
         self.page_click_login_btn()
