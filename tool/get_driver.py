@@ -20,6 +20,8 @@ class GetDriver:
             desired_caps['deviceName'] = 'emulator-5554'
             # 包名/
             desired_caps['appPackage'] = GetDriver.package
+            #获取tuast消息
+            desired_caps['automationName'] = "Uiautomator2"
             # 启动名
             desired_caps['appActivity'] = GetDriver.activity
             # 中文
