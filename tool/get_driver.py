@@ -6,6 +6,7 @@ class GetDriver:
     driver = None
     package = page.app_appPackage
     activity = page.app_appActivity
+
     # 获取driver
     @classmethod
     def get_driver(cls):

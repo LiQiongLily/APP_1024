@@ -2,15 +2,11 @@ import sys
 import os
 sys.path.append(os.getcwd())
 
-
 import pytest
-
 from page.page_login import PageLogin
-
 
 def get_data():
     return [("itheimama","123456"),("itheima","1234567"),("15810561849","123456")]
-
 
 class TestLogin:
     # 初始化
